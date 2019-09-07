@@ -4,12 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>Home</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Frederisk Frugt & Gront">
   <meta name="author" content="Konstantin Adamov">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -18,7 +20,7 @@
 
 <body>
 	<!-- Navigation bar with social media icons -->
-<div class="w3-bar w3-black w3-hide-small">
+<div class="w3-bar w3-white w3-hide-small">
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
@@ -29,33 +31,45 @@
 </div>
 
 <section>
-<header class="logo">
-  <img  class="responsive" alt="logo" src="images/logo.png">
+<header class="logo" >
+	<a href="index..html"><img  class="responsive-logo" alt="logo" src="images/logo.png"></a>
 </header>
 </section>
 <nav class="tabs">
   <div class="selector"></div>
   <a href="index..html" class="active"><i class="fab fa-superpowers"></i>Home</a>
-  <a href="products.html"><i class="fas fa-hand-rock"></i>Products</a>
-  <a href="order.html"><i class="fas fa-bolt"></i>Online Order</a>
-  <a href="about.html"><i class="fas fa-burn"></i>About us</a>
-  <a href="contact-us.html"><i class="fas fa-burn"></i>Contact us</a>
+  <a href="products.html">Products</a>
+  <a href="order.html">Online Order</a>
+  <a href="about.html">About us</a>
+  <a href="contact-us.html">Contact us</a>
 </nav>
+	
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+	<span style="font-size:30px;cursor:pointer" class="menuicon" onclick="openNav()">&#9776;</span>
+
 <!-- Image header -->
 
    <div class="imgd">
 <img  class="responsive" src="images/webbgr.png" alt="img">
+	   <img  class="mobilehome" src="images/mobilehome.png" alt="img">
     <div class="hero-text">
   <h1 style="font-size:5rem">Summer Discounts !</h1>
   <h3>This summer only we are offering ALL our Berries, Fruits & Vegetables 20% off!</h3>
-  <button>Check</button>
+		<a href="#" class="button-check">CHECK</a>
+  <button class="check">Check</button>
 </div>
     </div>
   
   <div class="hero-image">
-	  <img  class="responsive" src="images/welcomeimg.png" alt="fruits">
+	  <img  class="responsive-overlay"  src="images/welcomeimg.png" alt="fruits">
   <div class="welcome-text">
-    <h1 style="font-size:6rem">Welcome!</h1>
+    <h1  class="welc">Welcome!</h1>
     <h3>30 years of Experience in the Grocery Industry</h3>
     <h5>How nice is yet another specialty store in Aarhus. On Tuesday, August 20 at 10am, something will happen. Here Frederiks Frugt & Greens opens in the newly renovated shop in Frederiks Allé 105. <br>
      In addition to fruits and vegetables, there is also a sea of ​​delicacies. Not only from Denmark, but from Asia, Mexico and Turkey. There will be several special items that are not available in many other places in Aarhus. It may be mentioned that there are at least 15 different kinds of olives that you can buy
@@ -63,9 +77,73 @@
     <button>Read more</button>
   </div>
 </div>
+	
+<section class="gridd">
+  <h3>Our Services</h3>
+  <p class="section-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <div class="services-grid">
+    <div class="service service1">
+      <i class="ti-bar-chart"></i>
+      <h4>Wealth Management</h4>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<a href="#" class="cta">Read More <span class="ti-angle-right"></span></a>
+    </div>
 
+    <div class="service service2">
+      <i class="ti-light-bulb"></i>
+      <h4>Financial Planning</h4>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <a href="#" class="cta">Read More <span class="ti-angle-right"></span></a>
+    </div>
+
+    <div class="service service3">
+      <i class="ti-money"></i>
+      <h4>Investment Banking</h4>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <a href="#" class="cta">Read more <span class="ti-angle-right"></span></a>
+    </div>
+  </div>
+</section>
+	
+	<section class="disc">
+	<img  class="discaounts-home" src="images/disc.png" alt="discounts">
+		<a href="#" class="button-order">ORDER</a>
+	
+	</section>
+	<section class="gridd">
+  <h3>Our Services</h3>
+  <p class="section-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <div class="services-grid">
+    <div class="service service1">
+      <i class="ti-bar-chart"></i>
+      <h4>Wealth Management</h4>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<a href="#" class="cta">Read More <span class="ti-angle-right"></span></a>
+    </div>
+
+    <div class="service service2">
+      <i class="ti-light-bulb"></i>
+      <h4>Financial Planning</h4>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <a href="#" class="cta">Read More <span class="ti-angle-right"></span></a>
+    </div>
+  </div>
+</section>
+	
+	<section class="bottom-bar">
+	<img class="socialmedia-bot" src="images/botbar.png" alt="socialmedia-bottom">
+		<div class="social-icons">
+		<a href="#" class="facebook"><img src="images/facebook.png" alt="facebook"></a>
+		<a href="#" class="instagram"><img src="images/instagram.png" alt="facebook"></a>
+		<a href="#" class="google"><img src="images/google.png" alt="facebook"></a>
+		</div>
+	</section>
+	<section class="web-rights">
+	<h4 class="rights">@FREDERISK FRUGT & GRONT</h4>
+	</section>
   <!-- main js file -->
 <script src="js/main.js">
+
 
 </script>
 </body>

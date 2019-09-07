@@ -19,3 +19,14 @@ $(".tabs").on("click","a",function(e){
     "width": activeWidth + "px"
   });
 });
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+ 
+  
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+
+}
