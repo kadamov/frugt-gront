@@ -96,7 +96,7 @@ p {
     .welcome-text {
         text-align: center;
         position: absolute;
-        top: 160%;
+        top: 145%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
