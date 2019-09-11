@@ -1,3 +1,4 @@
+//navigation 
 var tabs = $('.tabs');
 var items = $('.tabs').find('a').length;
 var selector = $(".tabs").find(".selector");
@@ -19,6 +20,7 @@ $(".tabs").on("click","a",function(){
   });
 });
 
+//auto sliding images
 var myIndex = 0;
 carousel();
 
@@ -31,9 +33,10 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 3000); // Change image every 2 seconds
+  setTimeout(carousel, 3000); // Change image every 3 seconds
 }
 
+//nav mobile opening
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
  

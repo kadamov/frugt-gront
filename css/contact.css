@@ -53,6 +53,10 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-.map{
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.map{
 	margin-top: 53%;
+}
+	
 }
