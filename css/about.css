@@ -390,7 +390,8 @@ p {
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: #111;
+		
+        background-image: url("../images/menubgrphone.png");
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;

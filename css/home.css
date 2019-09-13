@@ -404,13 +404,10 @@ p {
     }
 
     .sidenav a {
-		position: relative;
-		top: 15%;
         padding: 8px 8px 8px 32px;
         text-decoration: none;
-        font-size: 2rem;
-		font-weight: 500;
-        color: #085300;
+        font-size: 25px;
+        color: #818181;
         display: block;
         transition: 0.3s;
     }
@@ -426,6 +423,8 @@ p {
         font-size: 36px;
         margin-left: 50px;
     }
+	
+	
 
     @media screen and (max-height: 450px) {
         .sidenav {
@@ -435,7 +434,7 @@ p {
         .sidenav a {
             font-size: 18px;
         }
-    }
+	}
 
 
     .button-check {
