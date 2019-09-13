@@ -89,7 +89,8 @@ p {
 
 
  .welc {
-        font-size: 3rem;
+	 
+        font-size: 3vw;
 	 color: #0E6514;
     }
 
@@ -221,7 +222,9 @@ p {
 }
 
 .welc {
-    font-size: 4rem;
+	 
+    font-size: 3rem;
+	
 }
 
 
@@ -291,6 +294,38 @@ p {
 }
 
 
+.bottom-bar2{
+    background-image: url("../images/botimg.png");
+    max-width: 100%;
+    height: 300px;
+    position: relative;
+	margin-top:  40%;
+		text-align: center;
+    
+}
+
+.social-icons2 {
+    max-width: 100%;
+    position: relative;
+    bottom: 4rem;
+    left: 0.5rem;
+}
+
+.web-rights2 {
+    background-color: #3F494E;
+    max-width: 100%;
+    height: 100px;
+    margin: 0% auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.rights2 {
+
+    color: white;
+    text-align: center;
+    position: relative;
+}
 
 
 
@@ -299,23 +334,38 @@ p {
 
 
 
+.mobileabbgr{
+	display: none;
+}
 
 
 
 
-
-
+.section-lead {
+  max-width: 600px;
+  margin: 1rem auto 1.5rem;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
     .hero-text {
         display: none;
     }
-
+	.mobileabbgr{
+	display: block;
+}
+.welc {
+	 
+    font-size: 2vw;
+	padding-top: 200%;
+}
 
     .tabs {
         display: none;
     }
-
+	
+	.w3-content {
+		display: none;
+	}
     .responsive {
         display: none;
     }
@@ -378,6 +428,47 @@ p {
             font-size: 18px;
         }
     }
-	
+	.bottom-bar2{
+    background-image: url("../images/mobilesocial.png");
+    max-width: 100%;
+    height: 300px;
+    position: relative;
+	margin-top:  350%;
+		text-align: center;
+    
+}
+	.bottom-bar {
+    background-image: url("../images/mobilesocial.png");
+    max-width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.social-icons2 {
+    max-width: 100%;
+    position: relative;
+    bottom: 4rem;
+    left: 0.5rem;
+}
+
+.web-rights2 {
+    background-color: #3F494E;
+    max-width: 100%;
+    height: 100px;
+    margin: 0% auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.rights2 {
+
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+
 	
 }

@@ -21,7 +21,37 @@
 	  
   }
 }
+.bottom-bar {
+    background-image: url("../images/botimg.png");
+    max-width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
 
+.social-icons {
+    max-width: 100%;
+    position: relative;
+    bottom: 4rem;
+    left: 0.5rem;
+}
+
+.web-rights {
+    background-color: #3F494E;
+    max-width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.rights {
+
+    color: white;
+    text-align: center;
+    position: relative;
+}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -58,5 +88,13 @@ input[type=submit]:hover {
 	.map{
 	margin-top: 53%;
 }
-	
+	.bottom-bar {
+    background-image: url("../images/mobilesocial.png");
+    max-width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
 }

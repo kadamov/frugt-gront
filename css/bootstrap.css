@@ -3230,25 +3230,25 @@ fieldset[disabled] .btn-success.focus {
 .btn-info {
   color: #fff;
   background-color: #5bc0de;
-  border-color: #46b8da;
+  border-color: #15C745;
 }
 .btn-info:focus,
 .btn-info.focus {
   color: #fff;
-  background-color: #31b0d5;
+  background-color:#15C745;
   border-color: #1b6d85;
 }
 .btn-info:hover {
   color: #fff;
-  background-color: #31b0d5;
-  border-color: #269abc;
+  background-color: #15C745;
+  border-color: #15C745;
 }
 .btn-info:active,
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
   color: #fff;
-  background-color: #31b0d5;
-  border-color: #269abc;
+  background-color: #15C745;
+  border-color: #15C745;
 }
 .btn-info:active:hover,
 .btn-info.active:hover,
@@ -3260,8 +3260,8 @@ fieldset[disabled] .btn-success.focus {
 .btn-info.active.focus,
 .open > .dropdown-toggle.btn-info.focus {
   color: #fff;
-  background-color: #269abc;
-  border-color: #1b6d85;
+  background-color: #15C745;
+  border-color: #15C745;
 }
 .btn-info:active,
 .btn-info.active,
@@ -3277,11 +3277,11 @@ fieldset[disabled] .btn-info:focus,
 .btn-info.disabled.focus,
 .btn-info[disabled].focus,
 fieldset[disabled] .btn-info.focus {
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #15C745;
+  border-color: #15C745;
 }
 .btn-info .badge {
-  color: #5bc0de;
+  color: #15C745;
   background-color: #fff;
 }
 .btn-warning {
@@ -5353,12 +5353,12 @@ button.list-group-item-success.active:focus {
   border-color: #3c763d;
 }
 .list-group-item-info {
-  color: #31708f;
+  color: #15C745;
   background-color: #d9edf7;
 }
 a.list-group-item-info,
 button.list-group-item-info {
-  color: #31708f;
+  color: #15C745;
 }
 a.list-group-item-info .list-group-item-heading,
 button.list-group-item-info .list-group-item-heading {
@@ -5368,7 +5368,7 @@ a.list-group-item-info:hover,
 button.list-group-item-info:hover,
 a.list-group-item-info:focus,
 button.list-group-item-info:focus {
-  color: #31708f;
+  color: #15C745;
   background-color: #c4e3f3;
 }
 a.list-group-item-info.active,
@@ -5378,8 +5378,8 @@ button.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus,
 button.list-group-item-info.active:focus {
   color: #fff;
-  background-color: #31708f;
-  border-color: #31708f;
+  background-color: #15C745;
+  border-color: #15C745;
 }
 .list-group-item-warning {
   color: #8a6d3b;
